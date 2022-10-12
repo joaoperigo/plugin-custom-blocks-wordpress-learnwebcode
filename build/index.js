@@ -95,10 +95,10 @@ wp.blocks.registerBlockType("ourplugin/are-you-paying-attention", {
   icon: "smiley",
   category: "common",
   edit: function () {
-    return (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("h3", null, "This is jsx");
+    return (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "Hello"), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("h4", null, "Hi"));
   },
   save: function () {
-    return wp.element.createElement("h1", null, "This is the frontend.");
+    return (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("p", null, "Front"), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("h4", null, "FRont"));
   }
 });
 }();
