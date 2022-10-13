@@ -126,33 +126,8 @@ wp.blocks.registerBlockType("ourplugin/are-you-paying-attention", {
     }));
   },
   save: function (props) {
-    return (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("h4", null, "Today sky is ", props.attributes.skyColor, " and the grass is ", props.attributes.grassColor, "."));
-  },
-  deprecated: [{
-    attributes: {
-      skyColor: {
-        type: "string"
-      },
-      grassColor: {
-        type: "string"
-      }
-    },
-    save: function (props) {
-      return (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("h3", null, "Today sky is ", props.attributes.skyColor, " and the grass is ", props.attributes.grassColor, "."));
-    }
-  }, {
-    attributes: {
-      skyColor: {
-        type: "string"
-      },
-      grassColor: {
-        type: "string"
-      }
-    },
-    save: function (props) {
-      return (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("h2", null, "Today sky is ", props.attributes.skyColor, " and the grass is ", props.attributes.grassColor, "."));
-    }
-  }]
+    return null;
+  }
 });
 }();
 /******/ })()
